@@ -16,3 +16,40 @@ main{
     height: 932px;
     width: 716px;
 }
+
+.information{
+    padding: 0 112px;
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.infomartion__up{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: left;
+}
+
+.infomartion__up h1{
+    font-size: 64px;
+    font-family: "Avenir-Heavy";
+    color: var(--color-2);
+}
+
+.infomartion__up p{
+    color: var(--color-3);
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+}
+
+.explore a{
+    font-size: 18px;
+    font-family: "Avenir-Roman";
+    padding: 18px 48px;
+    text-decoration: none;
+    background-color: var(--color-2);
+    border-radius: 20px;
+    color: var(--color-1);
+}
+
