@@ -1,0 +1,18 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    padding: 64px 64px;
+}
+
+header h1{
+    font-family: "Avenir-Heavy";
+    font-size: 88px;
+    color: var(--color-2);
+}
