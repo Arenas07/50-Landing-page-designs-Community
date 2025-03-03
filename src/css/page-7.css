@@ -19,8 +19,8 @@ body {
 header {
     display: flex;
     grid-area: header;
-    background-color: red;
-    justify-content: left;
+    padding: 64px;
+    justify-content: flex-start;
     align-items: center; 
 }
 
@@ -31,7 +31,8 @@ header h1{
 main{
     display: grid;
     grid-area: main;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
     grid-template-rows: auto 1fr;
     grid-template-areas: 
         "info1 info2 info3 info4"
@@ -43,7 +44,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: green;
+    justify-content: center;
+
 }
 
 .container__2 {
@@ -51,7 +53,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: blue;
+
 }
 
 .container__3 {
@@ -59,7 +61,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: violet;
+
 }
 
 .container__4 {
@@ -74,7 +76,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: left;
+
 }
 
 .container__1 img, .container__2 img, .container__3 img, .container__4 img {
@@ -84,5 +87,64 @@ main{
 }
 
 .text {
-    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+    padding: 24px 45px 10px;
+}
+
+.text h2{
+    font-size: 40px;
+    color: var(--color-11);
+    font-family: "Avenir-Heavy";
+}
+
+.text p{
+    font-size: 24px;
+    color: var(--color-3);
+    font-family: "Avenir-Roman";
+}
+.card {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%; 
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 0 10%;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    background-color: red;
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 24px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5));
+}
+
+.overlay h2{
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-2);
+}
+
+.overlay p{
+    font-family: "Avenir-Roman";
+    font-size: 16px;
+    color: var(--color-2);
+    white-space: normal;
+    word-wrap: break-word;
+
 }
