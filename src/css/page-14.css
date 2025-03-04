@@ -1,0 +1,88 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 64px;
+    gap: 76px;
+    width: 48%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.title h1{
+    color: var(--color-22);
+    font-size: 64px;
+    font-family: "Poppins-Bold";
+
+
+}
+
+.title p{
+    color: var(--color-22);
+    font-size: 24px;
+    font-family: "Poppins-Light";
+    width: 100%;
+    max-width: 600px;
+}
+
+.title a{
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+    color: var(--color-22);
+    background-color: var(--color-24);
+    padding: 30px 40px;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.subinformation {
+    display: flex;
+    flex-direction: row;
+    color: var(--color-1); 
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 650px;
+    background-color: var(--color-23); 
+    padding: 24px 96px; 
+    border-radius: 16px;
+}
+
+.subinformation div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left;
+    gap: 16px;
+    width: 100%;
+    max-width: 130px;
+}
+
+.subinformation div h3 {
+    font-family: "Poppins-Semibold";
+    font-size: 24px;
+}
+.subinformation div p {
+    font-family: "Poppins-Regular";
+    font-size: 14px;
+
+}
