@@ -21,6 +21,7 @@
     --color-19: #9AD7F3;
     --color-20: #6BDFDA;
     --color-21: #232323;
+    --color-22: #25252573; /* 45% */
 }
 
 @font-face {
@@ -76,4 +77,15 @@
 @font-face {
     font-family: "Avenir-Book";
     src: url(../storage/fonts/Avenir/AvenirLTStd-Book.otf);
+
+}
+
+@font-face {
+    font-family: "Times-Bold";
+    src: url(../storage/fonts/Times/Typography\ Times\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "Times-Regular";
+    src: url(../storage/fonts/Times/Typography\ Times\ Regular.ttf);
 }
