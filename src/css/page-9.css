@@ -1,0 +1,68 @@
+@import url(variables.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    font-family: 'Work Sans', sans-serif;
+    background: linear-gradient(to bottom right, var(--color-14), var(--color-15));
+    padding: 64px 0;
+}
+main img{
+    position: absolute;
+    z-index: -10;
+}
+
+.image__left{
+    bottom: 0;
+    left: 64px;
+    width: 462px;
+    height: auto;
+}
+
+.image__right{
+    top: 0;
+    right: 64px;
+    width: 537px;
+    height: auto;
+}
+
+.title {
+    max-width: 756px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: red;
+    transform: translateX(30%);
+    gap: 16px;
+}
+
+.title h1 {
+    font-size: 88px;
+    color: var(--color-16);
+    margin-bottom: 20px;
+    font-family: "Poppins-Bold";
+}
+
+.title p {
+    font-size: 24px;
+    color: var(--color-16);
+    margin-bottom: 30px;
+    text-wrap: wrap;
+    font-family: "Poppins-Regular";
+}
+
+.title a {
+    font-family: "Poppins-Regular";
+    display: inline-block;
+    padding: 24px 48px;
+    font-size: 24px;
+    background-color: var(--color-16);
+    color: var(--color-1);
+    text-decoration: none;
+    border-radius: 25px;
+}
+
