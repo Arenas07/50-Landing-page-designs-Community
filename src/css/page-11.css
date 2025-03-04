@@ -1,0 +1,36 @@
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    padding: 92px 65px 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 62% 1fr;
+    grid-template-areas: "title images"
+    "info info";
+}
+
+.title{
+    grid-area: title;
+    background-color: red;
+}
+
+.images{
+    display: flex;
+    grid-area: images;
+    background-color: blue;
+}
+
+.images img{
+    position: relative;
+    height: 100%;
+}
+.subinformation{
+    background-color: yellowgreen;
+    grid-area: info;
+}
