@@ -9,6 +9,8 @@
 main{
     display: flex;
     flex-direction: row;
+    gap: 30px;
+    padding-top: 100px;
 }
 
 .left{
@@ -18,7 +20,7 @@ main{
     justify-content: center;
     padding: 0 0 0 64px;
     gap: 76px;
-    width: 48%;
+    width: 50%;
 }
 
 .title {
@@ -85,4 +87,81 @@ main{
     font-family: "Poppins-Regular";
     font-size: 14px;
 
+}
+
+.right{
+    position: relative;
+    width: 80%;
+    z-index: -100;
+
+    
+}
+
+.main__images img{
+    position: absolute;
+    
+}
+
+.main__images img:nth-child(1){
+    top: 20vh;
+    width: 100%;
+    max-width: 550px;
+    left: -70px;
+}
+
+.main__images img:nth-child(2){
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 200px;
+
+    transform: translate(-50%, -50%);
+}
+
+.main__images img:nth-child(3){
+    bottom: 20vh;
+    left: 55%;
+}
+
+.background_1{
+    background-image: url(../storage/img/page-14/Bg-brown.png);
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    background-repeat: no-repeat;
+    max-height: 553px;
+    z-index: -20;
+    position: relative;
+    bottom: 0;
+
+}
+
+.background_1 img{
+    position: absolute;
+    top: 30%;
+    right: 12%;
+}
+
+.background_2{
+    background-image: url(../storage/img/page-14/bg-yellow.png);
+    width: 100%;
+    height: 100%;
+    max-width: 477px;
+    max-height: 572px;
+    z-index: -10;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+}
+
+.background_2 img:nth-child(1){
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.background_2 img:nth-child(2){
+    transform: translate(40%, 50%);
+    position: absolute;
 }
