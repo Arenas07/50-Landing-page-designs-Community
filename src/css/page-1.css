@@ -1,0 +1,79 @@
+@import url(variables.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page_1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:". information information ."
+                        ". information information ."
+                        "img1 img1 img1 img1"
+                        "img2 img2 img2 img2";
+}
+
+.information {
+    grid-area: information;
+    text-align: center;
+    padding: 64px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.upper_row{
+    grid-area: img1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.lower_row{
+    margin-top: 16px;
+    grid-area: img2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.information h1{
+    font-family: "Avenir-Heavy";
+    font-size: 64px;
+    color: var(--color-2);
+}
+
+.information h3{
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    color: var(--color-3);
+}
+
+.information a{
+    font-family: "Avenir-Heavy";
+    font-size: 18px;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    padding: 18px 48px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.upper_row img{
+    height: 288px;
+    width: 316px;
+}
+
+.lower_row img{
+    height: 288px;
+    width: 316px;
+}
