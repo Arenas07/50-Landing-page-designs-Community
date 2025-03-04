@@ -1,0 +1,47 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 742px;
+    gap: 53px;
+    padding: 67px 64px 67px 132px;
+    grid-template-areas: "info images";
+    background-color: var(--color-17);
+}
+
+.left{
+    grid-area: info;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    display: grid;
+    grid-area: images;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "col1 col2 col3 col4";
+}
+
+.column_1{
+    grid-area: col1;
+}
+.column_2{
+    grid-area: col2;
+}
+.column_3{
+    grid-area: col3;
+}
+.column_4{
+    grid-area: col4;
+}
