@@ -10,6 +10,9 @@
     --color-9: #111111;
     --color-10: #685FD4;
     --color-11: #25252559; /* 35% */
+    --color-12: #AB2706;
+    --color-13: #080808;
+    --color-14: #E5B94B;
 }
 
 @font-face {
@@ -35,4 +38,14 @@
 @font-face {
     font-family: "WorkSans-Medium";
     src: url(../storage/fonts/WorkSans/WorkSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "WorkSans-Bold";
+    src: url(../storage/fonts/WorkSans/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "WorkSans-Light";
+    src: url(../storage/fonts/WorkSans/WorkSans-Light.ttf);
 }
