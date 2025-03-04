@@ -1,0 +1,85 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr) ;
+    grid-template-areas: "info1 title img1"
+    "info1 title img1"
+    "img2 title info2"
+    "img2 title info2";
+}
+
+.info__1{
+    grid-area: info1;
+    align-items: center;
+    justify-content: center;
+    padding: 99px 64px;
+    background-color: aliceblue;
+    gap: 17px;
+}
+
+.info__1 h3{
+    font-family: "Times-Bold";
+    font-size: 24px;
+    color: var(--color-22);
+}
+
+.info__1 p{
+    font-family: "Times-Regular";
+    font-size: 18px;
+    color: var(--color-3);
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    grid-area: title;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.title h1{
+    font-family: "Times-Regular";
+    font-size: 112px;
+    color: var(--color-2);
+}
+
+.image__bottom{
+    grid-area: img2;
+    background-color: blue;
+}
+
+.image__top{
+    grid-area: img1;
+    background-color: yellowgreen;
+}
+
+.info__2{
+    grid-area: info2;
+    align-items: center;
+    justify-content: center;
+    padding: 99px 64px;
+    background-color: aliceblue;
+    gap: 17px;
+}
+
+.info__2 h3{
+    font-family: "Times-Bold";
+    font-size: 24px;
+    color: var(--color-22);
+}
+
+.info__2 p{
+    font-family: "Times-Regular";
+    font-size: 18px;
+    color: var(--color-3);
+}
