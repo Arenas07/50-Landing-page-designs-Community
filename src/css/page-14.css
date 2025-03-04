@@ -30,7 +30,7 @@ main{
 }
 
 .title h1{
-    color: var(--color-22);
+    color: var(--color-23);
     font-size: 64px;
     font-family: "Poppins-Bold";
 
@@ -38,7 +38,7 @@ main{
 }
 
 .title p{
-    color: var(--color-22);
+    color: var(--color-23);
     font-size: 24px;
     font-family: "Poppins-Light";
     width: 100%;
@@ -48,8 +48,8 @@ main{
 .title a{
     font-family: "Poppins-Regular";
     font-size: 20px;
-    color: var(--color-22);
-    background-color: var(--color-24);
+    color: var(--color-23);
+    background-color: var(--color-25);
     padding: 30px 40px;
     width: fit-content;
     text-decoration: none;
@@ -64,7 +64,7 @@ main{
     align-items: flex-start;
     width: 100%;
     max-width: 650px;
-    background-color: var(--color-23); 
+    background-color: var(--color-24); 
     padding: 24px 96px; 
     border-radius: 16px;
 }
