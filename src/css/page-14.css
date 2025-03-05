@@ -1,0 +1,167 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 100px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 64px;
+    gap: 76px;
+    width: 50%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.title h1{
+    color: var(--color-23);
+    font-size: 64px;
+    font-family: "Poppins-Bold";
+
+
+}
+
+.title p{
+    color: var(--color-23);
+    font-size: 24px;
+    font-family: "Poppins-Light";
+    width: 100%;
+    max-width: 600px;
+}
+
+.title a{
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+    color: var(--color-23);
+    background-color: var(--color-25);
+    padding: 30px 40px;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.subinformation {
+    display: flex;
+    flex-direction: row;
+    color: var(--color-1); 
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 650px;
+    background-color: var(--color-24); 
+    padding: 24px 96px; 
+    border-radius: 16px;
+}
+
+.subinformation div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left;
+    gap: 16px;
+    width: 100%;
+    max-width: 130px;
+}
+
+.subinformation div h3 {
+    font-family: "Poppins-Semibold";
+    font-size: 24px;
+}
+.subinformation div p {
+    font-family: "Poppins-Regular";
+    font-size: 14px;
+
+}
+
+.right{
+    position: relative;
+    width: 80%;
+    z-index: -100;
+
+    
+}
+
+.main__images img{
+    position: absolute;
+    
+}
+
+.main__images img:nth-child(1){
+    top: 20vh;
+    width: 100%;
+    max-width: 550px;
+    left: -70px;
+}
+
+.main__images img:nth-child(2){
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 200px;
+
+    transform: translate(-50%, -50%);
+}
+
+.main__images img:nth-child(3){
+    bottom: 20vh;
+    left: 55%;
+}
+
+.background_1{
+    background-image: url(../storage/img/page-14/Bg-brown.png);
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    background-repeat: no-repeat;
+    max-height: 553px;
+    z-index: -20;
+    position: relative;
+    bottom: 0;
+
+}
+
+.background_1 img{
+    position: absolute;
+    top: 30%;
+    right: 12%;
+}
+
+.background_2{
+    background-image: url(../storage/img/page-14/bg-yellow.png);
+    width: 100%;
+    height: 100%;
+    max-width: 477px;
+    max-height: 572px;
+    z-index: -10;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+}
+
+.background_2 img:nth-child(1){
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.background_2 img:nth-child(2){
+    transform: translate(40%, 50%);
+    position: absolute;
+}

@@ -13,6 +13,19 @@
     --color-12: #AB2706;
     --color-13: #080808;
     --color-14: #E5B94B;
+    --color-15: #C8CCCF;
+    --color-16: #97A3A3;
+    --color-17: #363830;
+    --color-18: #2F2F2F;
+    --color-19: #FEC3C7;
+    --color-20: #9AD7F3;
+    --color-21: #6BDFDA;
+    --color-22: #232323;
+    --color-23: #25252573; /* 45% */
+    --color-24: #2C1001;
+    --color-25: #49342F;
+    --color-26: #FFDE81;
+    --color-27: #457D61;
 }
 
 @font-face {
@@ -48,4 +61,35 @@
 @font-face {
     font-family: "WorkSans-Light";
     src: url(../storage/fonts/WorkSans/WorkSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../storage/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(../storage/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Avenir-Book";
+    src: url(../storage/fonts/Avenir/AvenirLTStd-Book.otf);
+
+}
+
+@font-face {
+    font-family: "Times-Bold";
+    src: url(../storage/fonts/Times/Typography\ Times\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "Times-Regular";
+    src: url(../storage/fonts/Times/Typography\ Times\ Regular.ttf);
 }

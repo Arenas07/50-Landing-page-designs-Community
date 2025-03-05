@@ -1,0 +1,110 @@
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    padding: 92px 65px 60px;
+    grid-template-columns: 50% 1fr;
+    grid-template-rows: 1fr 350px;
+    column-gap: 126px;
+    row-gap: 56px;
+    grid-template-areas: "title images"
+    "info info";
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    grid-area: title;
+
+}
+
+.title h1{
+    color: var(--color-2);
+    font-family: "Avenir-Heavy";
+    font-size: 72px;
+}
+
+.title p{
+    color: var(--color-3);
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+}
+
+.title a{
+    width: fit-content;
+    position: relative;
+    padding: 24px 48px;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    
+}
+
+.images{
+    display: flex;
+    position: relative;
+    grid-area: images;
+    justify-content: center;
+    align-items: center;
+}
+
+.images img{
+    position: absolute;
+    
+}
+
+.images img:nth-child(1){
+    transform: translate(-40%, -15%);
+
+}
+
+.images img:nth-child(2){
+    transform: translate(28%, 6%);
+}
+.subinformation{
+    padding: 64px;
+    background-color: var(--color-2);
+    grid-area: info;
+    display: flex;
+    flex-direction: row;
+    gap: 118px;
+    border-radius: 20px;
+}
+
+.div_1, .div_2, .div_3{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 100%;
+}
+
+.div_1 img, .div_2 img, .div_3 img{
+    width: 24px;
+}
+
+.div__title{
+    gap: 12px;
+}
+
+.div__title h3{
+    color: var(--color-1);
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+
+}
+
+.div_1 p, .div_2 p, .div_3 p{
+    color: var(--color-1);
+    font-family: "Avenir-Book";
+    font-size: 32px;
+}
