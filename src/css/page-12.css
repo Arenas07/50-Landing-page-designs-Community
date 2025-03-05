@@ -1,0 +1,70 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.images{
+    position: absolute;
+    z-index: -20;
+    right: 61px;
+    top: 67px;
+}
+
+.decoration{
+    position: absolute;
+    z-index: -10;
+    top: 91px;
+    right: 88px;
+}
+
+.title{
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title h1{
+    color: var(--color-2);
+    font-family: "Avenir-Heavy";
+    font-size: 72px;
+}
+
+.title p{
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-3);
+    max-width: 510px;
+}
+
+.title a{
+    width: fit-content;
+    padding: 24px 48px;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Poppins-Regular";
+}
+
+.experience{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 64px;
+    bottom: -290px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.experience p{
+    max-width: 520px;
+    font-family: "Avenir-Roman";
+    font-size: 22px;
+    color: var(--color-3);
+}
