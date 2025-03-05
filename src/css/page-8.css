@@ -1,0 +1,92 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 4% 2% 0 2%;
+    gap: 100px;
+    display: grid;
+    background-color: var(--color-12);
+    grid-template-columns: 50% 1fr;
+    grid-template-areas: 
+    "left right";
+}
+
+.left{
+    grid-area: left;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.left img{
+    position: absolute;
+    max-width: 100%;
+    object-fit: contain;
+}
+.left img:nth-child(1){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -46%);
+    width: 90%;
+    height: 99.9%;
+    z-index: 20;
+}
+.left img:nth-child(2){
+    width: 653px;
+    height: 653px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.left img:nth-child(3){
+    bottom: 10%;
+    left: 75%;
+    transform: translateX(-10%);
+}
+
+.left img:nth-child(4){
+    position: absolute;
+    left: 3%;
+
+}
+.right{
+    grid-area: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 80vh  ;
+
+}
+
+.right h1{
+    font-family: "WorkSans-Bold";
+    color: var(--color-1);
+    font-size: 88px;
+}
+
+.right p{
+    font-family: "WorkSans-Light";
+    color: var(--color-1);
+    font-size: 24px;
+}
+
+.right a{
+    font-family: "WorkSans-Medium";
+    color: var(--color-13);
+    padding: 24px 50px;
+    background-color: var(--color-14);
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 30px;
+    margin-bottom: 118px;
+}
+

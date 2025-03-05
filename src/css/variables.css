@@ -1,8 +1,31 @@
 :root{
     --color-1: #FFFFFF;
     --color-2: #252525;
-    --color-3: #252525cc;
-    --color-4: #25252540;
+    --color-3: #252525cc; /* 80% */
+    --color-4: #25252540; /* 25% */
+    --color-5: #2525258C; /* 55% */
+    --color-6: #050505;
+    --color-7: #F6F6F6;
+    --color-8: #333333;
+    --color-9: #111111;
+    --color-10: #685FD4;
+    --color-11: #25252559; /* 35% */
+    --color-12: #AB2706;
+    --color-13: #080808;
+    --color-14: #E5B94B;
+    --color-14: #C8CCCF;
+    --color-15: #97A3A3;
+    --color-16: #363830;
+    --color-17: #2F2F2F;
+    --color-18: #FEC3C7;
+    --color-19: #9AD7F3;
+    --color-20: #6BDFDA;
+    --color-21: #232323;
+    --color-22: #25252573; /* 45% */
+    --color-23: #2C1001;
+    --color-24: #49342F;
+    --color-25: #FFDE81;
+    --color-26: #457D61;
 }
 
 @font-face {
@@ -13,4 +36,60 @@
 @font-face {
     font-family: "Avenir-Roman";
     src: url(../storage/fonts/Avenir/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+    font-family: "PlayfairDisplay-Bold";
+    src: url(../storage/fonts/Playfair/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url(../storage/fonts/WorkSans/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/fonts/WorkSans/WorkSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "WorkSans-Bold";
+    src: url(../storage/fonts/WorkSans/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "WorkSans-Light";
+    src: url(../storage/fonts/WorkSans/WorkSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../storage/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(../storage/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Avenir-Book";
+    src: url(../storage/fonts/Avenir/AvenirLTStd-Book.otf);
+
+}
+
+@font-face {
+    font-family: "Times-Bold";
+    src: url(../storage/fonts/Times/Typography\ Times\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "Times-Regular";
+    src: url(../storage/fonts/Times/Typography\ Times\ Regular.ttf);
 }
