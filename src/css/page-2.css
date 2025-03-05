@@ -32,6 +32,8 @@ body {
     flex-direction: column;
     justify-content: left;
     gap: 24px;
+    width: 100%;
+    max-width: 444px;
 }
 
 .information h1 {
@@ -77,6 +79,8 @@ body {
     width: 408px;
 }
 .images__bottom {
+    width: 100%;
+    max-width: 1316px;
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -84,6 +88,8 @@ body {
 }
 
 .images__bottom div {
+    width: 100%;
+    max-width: 412px;
     position: relative;
     flex: 1;
     justify-content: left;
