@@ -50,16 +50,21 @@
     font-family: "Avenir-Heavy";
     font-size: 64px;
     color: var(--color-2);
+    width: 100%;
+    max-width: 610px;
 }
 
 .information h3{
     font-family: "Avenir-Roman";
     font-size: 26px;
     color: var(--color-3);
+    font-weight: 100;
+    width: 100%;
+    max-width: 610px;
 }
 
 .information a{
-    font-family: "Avenir-Heavy";
+    font-family: "Avenir-Roman";
     font-size: 18px;
     color: var(--color-1);
     background-color: var(--color-2);
